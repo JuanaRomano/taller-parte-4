@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUNTO 3</title>
+    <link rel="stylesheet" href="punto3.css">
+</head>
+
+<body>
+
+    <form action="" class="datos" id="formulario" onsubmit="return validar();">
+
+        <h2 class="titulo">FORMULARIO</h2>
+        <input class="parte3" type="text" name="nombre" id="nombre">
+        <label for="nombre" class="parte3_1">Nombre </label>
+
+        <input class="parte3" type="number" name="edad" id="edad">
+        <label for="edad" class="parte3_1">edad</label>
+        
+        <input class="parte3" type="text" name="profesion" id="profesion"><span id="profesionOk"></span>
+        <label for="profesion" class="parte3_1">profesion</label>
+    
+        <input class="parte3" type="email" name="correo" id="correo"><span id="correoOk"></span>
+        <label for="correo" class="parte3_1">correo</label>
+
+        <input class="parte3" type="number" name="telefono" id="telefono"><span id="telefonoOk"></span>
+        <label for="telefono" class="parte3_1">telefono</label>
+
+        <input class="parte3" type="text" name="direccion" id="direccion">
+        <label for="direccion" class="parte3_1">direccion</label>
+    
+        
+       
+
+    </form>
+    
+    <button type="button" value="enviar" onclick="getData()" class="parte4">Enviar</button>
+
+        <script src="punto3js/punto3.js"></script>
+</body>
+
+</html>
